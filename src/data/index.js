@@ -8,9 +8,10 @@ export const about = {
   role: "Software Developer",
   description:
     "I'm a passionate Computer Science student at Babes Bolyai University. Here, you'll find a fusion of my creative endeavors and insights into the world of technology. Join me as I navigate the future one key at a time.",
-  resume: "#",
+  resume:
+    "https://drive.google.com/file/d/1Sx2ia1Lwy6fFYaM7O-NsIRY452wen1QV/view?usp=sharing",
   social: {
-    linkedin: "https://www.linkedin.com/in/alexandru-balta-720a002a9/",
+    linkedin: "https://www.linkedin.com/in/alexandru-balta",
     github: "https://github.com/kerBiy",
   },
 };
@@ -23,6 +24,13 @@ export const projects = [
     stack: ["ReactJS", "Vanilla CSS", "Font End"],
     sourceCode: "https://github.com/kerBiy/web-portfolio",
     livePreview: "https://kerBiy.github.io/web-portfolio",
+  },
+  {
+    name: "Job Finder",
+    description:
+      "Discover Your Next Career Opportunity with Our Innovative Job Search App. I created a sleek, cross-platform tool for effortless job hunting. Users can search, view, and apply for jobs directly, with real-time updates from integrated APIs. The app features intuitive navigation, responsive design, and local storage for saved jobs, enhancing user satisfaction and retention. Explore how this app transforms job searching into a smooth, efficient experience!",
+    stack: ["React Native", "Expo", "Mobile App"],
+    sourceCode: "https://github.com/kerBiy/job-finder",
   },
   {
     name: "Space Dodge",
@@ -44,10 +52,12 @@ export const skills = [
   "HTML",
   "CSS",
   "JavaScript",
-  "React",
-  "ES6",
+  "TypeScript",
+  "ReactJS",
+  "React Native",
   "Git",
-  "C++",
+  "C/C++",
+  "Assembly",
   "Qt",
   "Java",
   "Python",
