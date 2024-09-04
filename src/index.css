@@ -126,6 +126,7 @@ button:hover {
 @media (max-width: 900px) {
   :root {
     --animation-translate: 2rem;
+    --animation-duration: 0.6s;
   }
 
   h1 {
