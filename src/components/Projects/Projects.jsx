@@ -9,7 +9,7 @@ const Projects = () => {
   if (!projects.length) return null;
 
   return (
-    <section id="projects" className="section projects">
+    <section id="projects" className="section projects fade-in">
       <h2 className="section__title">Projects</h2>
 
       <ul className="projects__grid">

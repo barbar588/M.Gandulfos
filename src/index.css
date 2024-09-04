@@ -47,6 +47,9 @@
 
   --clr-dark: #2a2f4c;
   --clr-light: #dee4e7;
+
+  --animation-translate: 3rem;
+  --animation-duration: 1s;
 }
 
 *,
@@ -121,6 +124,10 @@ button:hover {
 }
 
 @media (max-width: 900px) {
+  :root {
+    --animation-translate: 2rem;
+  }
+
   h1 {
     font-size: 2.6rem;
   }
@@ -131,5 +138,6 @@ button:hover {
     --fs-logo: 1.5rem;
     --fs-medium: 1.25rem;
     --section-width: 85%;
+    --animation-translate: 1rem;
   }
 }

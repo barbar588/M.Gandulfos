@@ -8,7 +8,7 @@ const About = () => {
   const { name, role, description, resume, social } = about;
 
   return (
-    <div className="about center section">
+    <div className="about center section fade-in">
       {name && (
         <h1>
           Hi, I am <span className="about__name ">{name}.</span>

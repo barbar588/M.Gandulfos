@@ -179,3 +179,17 @@
     margin-top: var(--margin-extra-large);
   }
 }
+
+/* Animations */
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(var(--animation-translate));
+  transition: opacity var(--animation-duration) ease-out,
+    transform var(--animation-duration) ease-in-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
