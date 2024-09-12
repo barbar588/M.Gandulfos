@@ -9,7 +9,7 @@ export const about = {
   description:
     "I'm a passionate Computer Science student at Babes Bolyai University. Here, you'll find a fusion of my creative endeavors and insights into the world of technology. Join me as I navigate the future one key at a time.",
   resume:
-    "https://drive.google.com/file/d/1Sx2ia1Lwy6fFYaM7O-NsIRY452wen1QV/view?usp=sharing",
+    "https://drive.google.com/file/d/1nfzp3SpYKidz_VbwG-630f13g5pfJvnW/view?usp=sharing",
   social: {
     linkedin: "https://www.linkedin.com/in/alexandru-balta",
     github: "https://github.com/kerBiy",
@@ -17,18 +17,25 @@ export const about = {
 };
 
 export const projects = [
+  // {
+  //   name: "Web Portfolio",
+  //   description:
+  //     "As a passionate software developer, I've crafted this digital space to showcase my skills, projects, and achievements. Explore my diverse range of projects, from innovative designs to impactful campaigns. Each piece demonstrates my dedication to quality, attention to detail, and ability to deliver results that exceed expectations.",
+  //   stack: ["ReactJS", "Vanilla CSS", "Font End"],
+  //   sourceCode: "https://github.com/kerBiy/web-portfolio",
+  //   livePreview: "https://kerBiy.github.io/web-portfolio",
+  // },
   {
-    name: "Web Portfolio",
+    name: "Simple Chat",
     description:
-      "As a passionate software developer, I've crafted this digital space to showcase my skills, projects, and achievements. Explore my diverse range of projects, from innovative designs to impactful campaigns. Each piece demonstrates my dedication to quality, attention to detail, and ability to deliver results that exceed expectations.",
-    stack: ["ReactJS", "Vanilla CSS", "Font End"],
-    sourceCode: "https://github.com/kerBiy/web-portfolio",
-    livePreview: "https://kerBiy.github.io/web-portfolio",
+      "I've build this chat app to demonstrate my expertise in real-time communication and responsive design. Explore this streamlined, cross-platform messaging tool, featuring secure authentication, instant messaging, and mobile-friendly navigation. Every aspect of this project showcases my focus on user experience, functionality, and clean, modern UI, delivering a seamless chat experience across all devices.",
+    stack: ["MERN", "TailwindCSS", "FullStack"],
+    sourceCode: "https://github.com/kerBiy/simple-chat",
   },
   {
     name: "Job Finder",
     description:
-      "Discover Your Next Career Opportunity with Our Innovative Job Search App. I created a sleek, cross-platform tool for effortless job hunting. Users can search, view, and apply for jobs directly, with real-time updates from integrated APIs. The app features intuitive navigation, responsive design, and local storage for saved jobs, enhancing user satisfaction and retention. Explore how this app transforms job searching into a smooth, efficient experience!",
+      "I created a sleek, cross-platform tool for effortless job hunting. Users can search, view, and apply for jobs directly, with real-time updates from integrated APIs. The app features intuitive navigation, responsive design, and local storage for saved jobs, enhancing user satisfaction and retention. Explore how this app transforms job searching into a smooth, efficient experience!",
     stack: ["React Native", "Expo", "Mobile App"],
     sourceCode: "https://github.com/kerBiy/job-finder",
   },
@@ -51,10 +58,13 @@ export const projects = [
 export const skills = [
   "HTML",
   "CSS",
+  "TailwindCSS",
   "JavaScript",
-  "TypeScript",
   "ReactJS",
   "React Native",
+  "NodeJS",
+  "Express",
+  "MongoDB",
   "Git",
   "C/C++",
   "Assembly",
