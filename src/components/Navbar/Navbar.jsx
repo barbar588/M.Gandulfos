@@ -39,7 +39,7 @@ const Navbar = () => {
               onClick={toggleNavList}
               className="link link--nav"
             >
-              Projects
+              Education
             </a>
           </li>
         ) : null}
@@ -51,7 +51,7 @@ const Navbar = () => {
               onClick={toggleNavList}
               className="link link--nav"
             >
-              Skills
+              Hobbies
             </a>
           </li>
         ) : null}

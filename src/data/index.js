@@ -1,18 +1,17 @@
 export const header = {
-  homepage: "https://kerBiy.github.io/web-portfolio",
-  title: "AB.",
+  title: "M.Gandulfos",
 };
 
 export const about = {
-  name: "ALEX BALTA",
-  role: "Software Developer",
+  name: "Melvin Gandulfos",
+  role: "BSCS Student",
   description:
-    "I'm a passionate Computer Science student at Babes Bolyai University. Here, you'll find a fusion of my creative endeavors and insights into the world of technology. Join me as I navigate the future one key at a time.",
+    "I'm a passionate Computer Science student at Nemsu Lianga College. Here, you'll find a fusion of my creative endeavors and insights into the world of technology. Join me as I navigate the future one key at a time.",
   resume:
-    "https://drive.google.com/file/d/1nfzp3SpYKidz_VbwG-630f13g5pfJvnW/view?usp=sharing",
+    "https://drive.google.com/file/d/1p_0Jd5Zt4D3VGusqLxC44EIAI_cR9wRW/view?usp=sharing",
   social: {
-    linkedin: "https://www.linkedin.com/in/alexandru-balta",
-    github: "https://github.com/kerBiy",
+    
+    github: "https://github.com/barbar588",
   },
 };
 
@@ -26,56 +25,33 @@ export const projects = [
   //   livePreview: "https://kerBiy.github.io/web-portfolio",
   // },
   {
-    name: "Simple Chat",
+    name: "Junior High",
     description:
-      "I've build this chat app to demonstrate my expertise in real-time communication and responsive design. Explore this streamlined, cross-platform messaging tool, featuring secure authentication, instant messaging, and mobile-friendly navigation. Every aspect of this project showcases my focus on user experience, functionality, and clean, modern UI, delivering a seamless chat experience across all devices.",
-    stack: ["MERN", "TailwindCSS", "FullStack"],
-    sourceCode: "https://github.com/kerBiy/simple-chat",
+      "In junior high, I focused on my studies, especially in science and math, which helped me build a strong foundation for my learning. I also volunteered at a local food bank, where I learned about the challenges some families face and the importance of helping others. Additionally, I played on the basketball team, where I made great friends and enjoyed working together with my teammates. These experiences contributed to my personal growth and taught me valuable lessons about teamwork and compassion."
   },
   {
-    name: "Job Finder",
+    name: "Senior high",
     description:
-      "I created a sleek, cross-platform tool for effortless job hunting. Users can search, view, and apply for jobs directly, with real-time updates from integrated APIs. The app features intuitive navigation, responsive design, and local storage for saved jobs, enhancing user satisfaction and retention. Explore how this app transforms job searching into a smooth, efficient experience!",
-    stack: ["React Native", "Expo", "Mobile App"],
-    sourceCode: "https://github.com/kerBiy/job-finder",
+      "In senior high, I chose the General Academic Strand. This program allowed me to explore a variety of subjects, including humanities, social sciences, and business. I learned important skills like critical thinking and effective communication. I also enjoyed group projects and presentations, which helped me work well with others. Overall, this strand gave me a well-rounded education and prepared me for different career paths and further studies."
   },
   {
-    name: "Space Dodge",
+    name: "College",
     description:
-      'Embark on an interstellar adventure like never before with "Space Dodge"! In this action-packed journey, players assume the role of a brave astronaut navigating the treacherous depths of space, tasked with dodging falling asteroids as they journey from left to right across the cosmos. But "Space Dodge" isn\'t just about survival, it\'s about pushing the boundaries of your skills and achieving new heights of success. The stars await—let the adventure begin!',
-    stack: ["Python", "PyGame", "Game"],
-    sourceCode: "https://github.com/kerBiy/Space-Dodge",
-  },
-  {
-    name: "Sorting Visualizer",
-    description:
-      "Welcome to the Sorting Algorithm Visualizer, a powerful tool designed to showcase the inner workings of various sorting algorithms in real-time! This app offers an immersive experience that brings the complexities of sorting to life before your eyes. With the Sorting Algorithm Visualizer, users can explore a diverse range of sorting methods, including QuickSort, MergeSort, HeapSort, BubbleSort, and many more.",
-    stack: ["C++", "Qt", "GUI", "Algorithms"],
-    sourceCode: "https://github.com/kerBiy/sorting-visualizer",
-  },
+      "In college, I studied Computer Science. I learned about programming, how to build software, and manage databases. My courses included web design and working on coding projects, which helped me improve my skills. I enjoyed working with others on group projects. Overall, this experience made me more passionate about technology and prepared me for a job in the tech field."
+  }
 ];
 
 export const skills = [
-  "HTML",
-  "CSS",
-  "TailwindCSS",
-  "JavaScript",
-  "ReactJS",
-  "React Native",
-  "NodeJS",
-  "Express",
-  "MongoDB",
-  "Git",
-  "C/C++",
-  "Assembly",
-  "Qt",
-  "Java",
-  "Python",
-  "PyGame",
-  "VS Code",
-  "Vim",
-];
+  "Plaing Online Games",
+  "Watching Movies",
+  "Watching Kdrama",
+  "Drawing",
+  "Biking",
+  "House Chores",
+  "Playing Mobile Legends ",
+  
+]
 
 export const contact = {
-  email: "alexandrubalta222@gmail.com",
+  email: "gandulfosmelvin37@gmail.com",
 };
